@@ -155,8 +155,12 @@
 
 // console.log(firstIndex);
 
-const number = 12;
-
+// const number = 12;
+// for (let i = 1; i <= number; i++) {
+//   if (number % i === 0) {
+//     console.log(i);
+//   }
+// }
 
 // const n = 5;
 // for (let i=1;i<=n; i++){{console.log("*".repeat(i));
