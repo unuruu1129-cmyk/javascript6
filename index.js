@@ -165,3 +165,92 @@
 // const n = 5;
 // for (let i=1;i<=n; i++){{console.log("*".repeat(i));
 // }}
+
+// let numbers = [5, 12, 20, 8] ;
+// for (let i=0; i<numbers.length; i++){
+//     console.log(numbers[i]+10);
+// }
+
+// let booleans = [false, false, true, true];
+// for (let i=0; i<booleans.length; i++){
+//     if (booleans[i]===false);{
+//         console.log(true);
+//     }
+// }
+
+// let products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }];
+// for (let i=0; i<products.length; i++){
+//     if (products[i].price>=600){console.log(products[i]);
+//     }
+// }
+
+// let employees = [{ name: "Амгалан", department: "IT" }, { name: "Номин", department: "HR" }];
+// for (let i=0; i<employees.length;i++){
+//     console.log(employees[i].name);
+//     }
+
+// const students = [{ name: "Бат", score: 85 }, { name: "Сара", score: 92 }];
+// for (let i=0;i<students.length;i++){
+//     if (students[i].score>90){console.log(students[i].name);
+//     }
+// }
+
+// products = [{ title: "Уут", stock: 5 }, { title: "Сав", stock: 0 }];
+// for (let i=0; i<products.length;i++){
+//     if (products[i].stock>0){
+//         console.log(products[i]);
+//     }
+// }
+
+//  const books = [{ title: "Монгол түүх", year: 2000 }, { title: "Газар зүй", year: 2010 }];
+//  for (let i=0; i<books.length;i++){
+//     if (books[i].year>2005){
+//         console.log(books[i]);
+//     }
+// }
+
+// const students = [{ name: "Бат", age: 20 }, { name: "Сара", age: 22 }];
+// let total=0;
+//  for (let i=0; i<students.length;i++){total=total+students[i].age
+ 
+// };
+// console.log(total/students.length);
+
+// const products = [{ title: "Уут", price: 500 }, { title: "Сав", price: 800 }];
+// const newProducts = [];
+// for (let i=0;i<products.length;i++){
+
+//   const newPrice = products[i].price * 1.1;
+
+//   newProducts.push({
+//     title: products[i].title,
+//     price: newPrice
+//   });
+
+// }
+
+// console.log(newProducts);
+
+// let employees = [
+//     { name: "Амгалан", salary: 1000, active: true, department: "IT" },
+//     { name: "Номин", salary: 1500, active: false, department: "HR" },
+//     { name: "Баяр", salary: 1200, active: true, department: "IT" }
+// ];
+
+// let total = 0;
+// let count = 0;
+
+// for (let i = 0; i < employees.length; i++) {
+
+//     if (employees[i].active === true) {
+//         total += employees[i].salary;
+//         count++;
+//     }
+
+// }
+
+// if (count > 0) {
+//     console.log(total / count);
+// } else {
+//     console.log("Идэвхтэй ажилтан байхгүй");
+// }
