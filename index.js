@@ -212,7 +212,7 @@
 // const students = [{ name: "Бат", age: 20 }, { name: "Сара", age: 22 }];
 // let total=0;
 //  for (let i=0; i<students.length;i++){total=total+students[i].age
- 
+
 // };
 // console.log(total/students.length);
 
